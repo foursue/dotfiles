@@ -61,3 +61,23 @@ set wrapscan
 set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
+
+if &compatible
+  set nocompatible
+endif
+set runtimepath+=/Users/hishinuma/.vim/bundles/repos/github.com/Shougo/dein.vim
+
+if dein#load_state('/Users/hishinuma/.vim/bundles')
+  call dein#begin('/Users/hishinuma/.vim/bundles')
+
+  call dein#add('/Users/hishinuma/.vim/bundles/repos/github.com/Shougo/dein.vim')
+  call dein#add('scrooloose/nerdtree')
+
+  call dein#end()
+  call dein#save_state()
+endif
+
+filetype plugin indent on
+syntax enable
+
+nnoremap <silent><C-e> :NERDTreeToggle<CR>
