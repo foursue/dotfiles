@@ -62,10 +62,9 @@ set hlsearch
 " ESC連打でハイライト解除
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
-filetype plugin indent on
-
+"filetype plugin indent on
 " シンタックスをオン
-syntax enable
+"syntax enable
 
 " バックスペースで改行を削除するようにする
 set backspace=2

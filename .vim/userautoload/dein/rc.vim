@@ -23,3 +23,10 @@ call dein#end()
 if dein#check_install()
   call dein#install()
 endif
+
+
+" ファイル形式別プラグインのロード
+filetype plugin indent on
+
+" シンタックスをオン
+syntax enable
