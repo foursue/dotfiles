@@ -30,3 +30,6 @@ filetype plugin indent on
 
 " シンタックスをオン
 syntax enable
+
+" カラースキーマ
+colorscheme darkblue
