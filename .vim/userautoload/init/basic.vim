@@ -63,6 +63,9 @@ set hlsearch
 nmap <Esc><Esc> :nohlsearch<CR><Esc>
 
 filetype plugin indent on
+
+" シンタックスをオン
 syntax enable
 
-
+" バックスペースで改行を削除するようにする
+set backspace=2
