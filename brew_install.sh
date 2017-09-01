@@ -2,7 +2,7 @@
 
 # 現在入ってるパッケージ一覧は`brew ls`で列挙できる
 brew install autoconf
-brew install composer
+brew install homebrew/php/composer
 brew install freetype
 brew install gdbm
 brew install go
@@ -10,6 +10,7 @@ brew install libpng
 brew install matplotlib
 brew install mysql
 brew install nkf
+brew install nodebrew
 brew install numpy
 brew install openssl
 brew install pkg-config
@@ -28,3 +29,5 @@ brew install sqlite
 brew install tree
 brew install wget
 brew install xz
+brew install yarn
+
